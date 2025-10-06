@@ -1,0 +1,21 @@
+postgres:
+  dbname: "sentinel"
+  user: "admin"
+  password: "admin"
+  host: "localhost"
+  port: 5432
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "newpassword"
+
+tables:
+  profiles: "profiles"
+  card_swipes: "campus_card_swipes"
+  wifi: "wifi_logs"
+  library: "library_checkouts"
+  lab: "lab_bookings"
+  cctv: "cctv_frames"
+  face_embeddings: "face_embeddings"
+  notes: "free_text_notes"
